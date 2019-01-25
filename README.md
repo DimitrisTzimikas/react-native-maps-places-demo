@@ -3,7 +3,7 @@ A react native demo with use of react-native-google-place-picker & react-native-
 To use: 
 1) open git bash
 2) write: ```git clone https://github.com/DimitrisTzimikas/react-native-maps-places-demo.git```
-3) then ```cd react-native-webrtc-server```
+3) then ```cd react-native-maps-places-demo```
 4) then ```npm install```
 
 ***
