@@ -14,7 +14,7 @@ In project folder navigate to: ```node_modules/react-native-google-place-picker/
 
 * Replace the existing code in file with this one: 
 
-```
+```gradle
 apply plugin: 'com.android.library'
 android {
     compileSdkVersion 28
@@ -39,7 +39,7 @@ dependencies {
 }
 ```
 * Now go to ```node_modules/react-native-google-place-picker/android/src/main/java/com/reactlibrary/RNGooglePlacePickerPackage.java``` and replace again the existing code with this one
-```
+```java
 package com.reactlibrary;
 
 import java.util.Arrays;
@@ -74,7 +74,7 @@ public class RNGooglePlacePickerPackage implements ReactPackage {
 
 Replace the code again
 
-```
+```gradle
 apply plugin: 'com.android.library'
 apply from: 'gradle-maven-push.gradle'
 
